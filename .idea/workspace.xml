@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e0205dc-9101-42f6-8313-3b296ff5170b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.4/libexec" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1lFWLWj8NM9nNCI2VrgIWzR1swa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/auth" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/mySQLClient" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="movies" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build movies" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="movies" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="movies" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build movies" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607193291655">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="123" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607193291655" />
+    <state width="1398" height="292" key="GridCell.Tab.0.bottom" timestamp="1607515303996">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607515303996" />
+    <state width="1398" height="292" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1607515157360" />
+    <state width="1398" height="292" key="GridCell.Tab.0.center" timestamp="1607515303991">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607515303991" />
+    <state width="1398" height="292" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1607515157356" />
+    <state width="1398" height="292" key="GridCell.Tab.0.left" timestamp="1607515303983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607515303983" />
+    <state width="1398" height="292" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1607515157355" />
+    <state width="1398" height="292" key="GridCell.Tab.0.right" timestamp="1607515303993">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607515303993" />
+    <state width="1398" height="292" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1607515157359" />
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom" timestamp="1607515329868">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607515303794" />
+    <state width="1398" height="292" key="GridCell.Tab.1.bottom/0.25.1440.822@0.25.1440.822" timestamp="1607515329868" />
+    <state width="1398" height="292" key="GridCell.Tab.1.center" timestamp="1607515329866">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1607515303791" />
+    <state width="1398" height="292" key="GridCell.Tab.1.center/0.25.1440.822@0.25.1440.822" timestamp="1607515329866" />
+    <state width="1398" height="292" key="GridCell.Tab.1.left" timestamp="1607515329864">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1607515303790" />
+    <state width="1398" height="292" key="GridCell.Tab.1.left/0.25.1440.822@0.25.1440.822" timestamp="1607515329864" />
+    <state width="1398" height="292" key="GridCell.Tab.1.right" timestamp="1607515329867">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="292" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1607515303792" />
+    <state width="1398" height="292" key="GridCell.Tab.1.right/0.25.1440.822@0.25.1440.822" timestamp="1607515329867" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1607368595995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1607368595995" />
+    <state x="421" y="219" width="597" height="490" key="find.popup" timestamp="1607513897301">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="219" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1607513897301" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handler/movie.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handler/movie.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/models/requests/addMovieRequest.go</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

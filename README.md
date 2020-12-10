@@ -53,7 +53,7 @@ CREATE TABLE `user_auth` (
 )
 ```
 
-This App consists 4 REST APIs   
+This App consists 5 REST APIs   
 1- PopulateDB with IMDB JSON file   
 **Request-**
 ```

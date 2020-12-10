@@ -41,7 +41,7 @@ CREATE TABLE `users` (
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`)
 )
-```   
+```
 User Auth   
 ```
 CREATE TABLE `user_auth` (
@@ -51,6 +51,13 @@ CREATE TABLE `user_auth` (
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`)
 )
+```
+
+**Insert Queries**   
+This will create an admin user, and the auth token. This auth token we need to pass as headers in every api call(Admin Group).
+```
+INSERT INTO `movies`.`users` (`username`, `email`, `is_admin`) VALUES ('abhinav', 'abhinav.maurya001@gmail.com', '1');
+INSERT INTO `movies`.`user_auth` (`user_id`, `auth_token`) VALUES ('1', '4e17f8af577919d5c50841543b559a28');
 ```
 
 This App consists 4 REST APIs   

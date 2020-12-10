@@ -9,7 +9,7 @@ import (
 )
 
 type EditMovieRequest struct {
-	Movie dto.MovieInfo `json:"list"`
+	Movie dto.MovieInfo `json:"movie"`
 }
 
 func (request *EditMovieRequest) Initiate(w http.ResponseWriter, r *http.Request) error {

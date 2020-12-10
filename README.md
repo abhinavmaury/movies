@@ -60,7 +60,7 @@ INSERT INTO `movies`.`users` (`username`, `email`, `is_admin`) VALUES ('abhinav'
 INSERT INTO `movies`.`user_auth` (`user_id`, `auth_token`) VALUES ('1', '4e17f8af577919d5c50841543b559a28');
 ```
 
-This App consists 4 REST APIs   
+This App consists 5 REST APIs   
 1- PopulateDB with IMDB JSON file   
 **Request-**
 ```

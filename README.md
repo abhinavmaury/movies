@@ -6,7 +6,8 @@ RESTful API for movies(something similar to IMDB)
 
 Create Table Commands-  
 Movies   
-```CREATE TABLE `movies` (
+```
+CREATE TABLE `movies` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(90) NOT NULL,
   `popularity_score` decimal(5,2) NOT NULL,
@@ -16,18 +17,22 @@ Movies
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-)```   
+)
+```   
 Genre   
-```CREATE TABLE `genre` (
+```
+CREATE TABLE `genre` (
   `movie_id` int(11) NOT NULL,
   `name` varchar(90) NOT NULL,
   `is_active` tinyint(1) NOT NULL DEFAULT '1',
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`movie_id`)
-)```   
+)
+```   
 Users   
-```CREATE TABLE `users` (
+```
+CREATE TABLE `users` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
@@ -35,15 +40,18 @@ Users
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`)
-)```   
+)
+```   
 User Auth   
-```CREATE TABLE `user_auth` (
+```
+CREATE TABLE `user_auth` (
   `user_id` int(11) NOT NULL,
   `auth_token` varchar(90) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`user_id`)
-)```
+)
+```
 
 This App consists 4 REST APIs   
 1- PopulateDB with IMDB JSON file   
@@ -134,4 +142,9 @@ curl --location --request GET 'localhost:8080/api/movies/admin/remove/1' \
 **Request**
 ```
 curl --location --request GET 'localhost:8080/api/movies/user/view'
+```
+
+Run Through Docker-   
+```
+docker-compose up --build
 ```
